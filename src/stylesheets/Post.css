@@ -1,0 +1,20 @@
+.PostItems{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post{
+    width: 600px;
+    margin: auto;
+    border: 1px solid teal;
+    padding: 10px;
+}
+
+.post-text{
+    display: inline-flex;
+}
+
+
+.post-text button{
+    padding: 5px 20px;
+}

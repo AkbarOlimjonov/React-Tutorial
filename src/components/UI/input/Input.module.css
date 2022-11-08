@@ -1,0 +1,13 @@
+.myInput{
+    width: 100%;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    border: 1px solid teal;
+    background-color: transparent;
+    color: teal;
+    font-size: 18px;
+
+}
+.myInput:focus{
+    outline: none;
+}
