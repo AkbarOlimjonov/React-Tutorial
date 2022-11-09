@@ -3,7 +3,7 @@ import "../stylesheets/Post.css";
 import MyButton from "./UI/button/MyButton";
 
 function Post(props) {
-  const {id,name,desc} = props.post;
+  const {name,desc} = props.post;
   return (
     <div  className="PostItems">
       <div className="post">
@@ -13,7 +13,7 @@ function Post(props) {
             <p>{desc}</p>
           </div>
           <div className="post_btn">
-            <MyButton disabled>O'chirish</MyButton>
+            <MyButton onClick={()=>{props.remove(props.post)}}>O'chirish</MyButton>
           </div>
         </div>
       </div>
